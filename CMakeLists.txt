@@ -31,6 +31,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Detection3DArray.msg"
   "msg/VehicleControl.msg"
   "msg/VehicleMode.msg"
+  "msg/Encoder.msg"
+  "msg/EncoderArray.msg"
   DEPENDENCIES
     std_msgs
     geometry_msgs
