@@ -33,6 +33,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/VehicleMode.msg"
   "msg/Encoder.msg"
   "msg/EncoderArray.msg"
+  "msg/Esp32Data.msg"
   DEPENDENCIES
     std_msgs
     geometry_msgs
