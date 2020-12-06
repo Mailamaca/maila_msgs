@@ -34,6 +34,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Encoder.msg"
   "msg/EncoderArray.msg"
   "msg/Esp32Data.msg"
+  "msg/TickDelta.msg"
   DEPENDENCIES
     std_msgs
     geometry_msgs
